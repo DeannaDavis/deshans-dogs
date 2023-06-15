@@ -58,7 +58,7 @@ export const Walkers = () => {
     let walkerHTML = "<ul>"
 
     for (const walker of walkers) {
-        walkerHTML += `<li>${walker.name}</li>`
+        walkerHTML += `<li id="walker--${walker.id}">${walker.name}</li>`
     }
 
     walkerHTML += "</ul>"
