@@ -25,12 +25,14 @@ document.addEventListener(
                 `walkerId` variable.
 
                 Splitting a string in JavaScript:
-                    https://www.youtube.com/watch?v=u2ZocmM93yU
-
+                https://www.youtube.com/watch?v=u2ZocmM93yU
+                
                 Destructuring in JavaScript:
-                    https://www.youtube.com/watch?v=UgEaJBz3bjY
-            */
-            const [,petId] = itemClicked.id.split("--")
+                https://www.youtube.com/watch?v=UgEaJBz3bjY
+                */
+           
+                const [,petId] = itemClicked.id.split("--")
+           
 
             /*
                 Now that you have the primary key of a walker object,
